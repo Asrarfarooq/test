@@ -8,13 +8,13 @@ second_num = float(second_num)
 
 out = None
 
-if operator == "+":
-    out =  num1 + num2
-elif operator == "-":
-    out = num1 - num2
-elif operator == "*":
-    out = num1 * num2
-elif operator == "/":
-    out = num1 / num2
+if ops == "+":
+    out =  first_num + second_num
+elif ops == "-":
+    out = first_num - second_num
+elif ops == "*":
+    out = first_num * second_num
+elif ops == "/":
+    out = first_num / second_num
     
 print("Answer: " + str(out))
