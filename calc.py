@@ -2,4 +2,5 @@
 first_num=int(input("Enter First Number: "))
 second_num=int(input("Enter Second Number: "))
 Result=first_num+second_num
-print("Result: "+str(Result))
+
+print("Result is: "+str(Result))
